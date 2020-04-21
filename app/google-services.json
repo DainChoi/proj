@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "703941849580",
+    "firebase_url": "https://heartdiary-696c8.firebaseio.com",
+    "project_id": "heartdiary-696c8",
+    "storage_bucket": "heartdiary-696c8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:703941849580:android:786a90ae4714c3b38590c9",
+        "android_client_info": {
+          "package_name": "com.dproject.heartdiary"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "703941849580-ett18u43nlouekbheqekgo24dhc4us6m.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD4UDSoXFOYsg1Ouzf_MRgfYN4fBhqNIm8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "703941849580-ett18u43nlouekbheqekgo24dhc4us6m.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

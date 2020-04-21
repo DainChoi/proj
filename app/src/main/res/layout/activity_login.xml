@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center">
+
+    <GridLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:columnCount="3">
+
+        <EditText
+            android:id="@+id/et_name"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_columnSpan="2"
+            android:layout_gravity="fill_horizontal"
+            android:hint="Email"
+            android:inputType="textEmailAddress"/>
+
+        <Button
+            android:id="@+id/btnLogin"
+            android:layout_gravity="fill"
+            android:layout_rowSpan="2"
+            android:text="Login"
+            android:layout_marginBottom="30dp"
+            android:backgroundTint="#52B5FF"
+            android:textColor="#fff"/>
+
+        <EditText
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_columnSpan="2"
+            android:layout_gravity="fill_horizontal"
+            android:hint="Password"
+            android:id="@+id/et_password"
+            android:layout_marginBottom="30dp"
+            android:inputType="textPassword"/>
+
+        <Button
+            android:id="@+id/btnRegister"
+            android:layout_marginStart="50dp"
+            android:backgroundTint="#52B5FF"
+            android:text="회원가입"
+            android:textColor="#fff" />
+
+        <Button
+            android:layout_marginStart="10dp"
+            android:id="@+id/btnPasswordReset"
+            android:text="비밀번호 재설정"
+            android:backgroundTint="#52B5FF"
+            android:textColor="#fff"/>
+
+    </GridLayout>
+
+<!--가로 6칸 (4,4,2) (3,3) 다시 만들기-->
+</LinearLayout>
